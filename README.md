@@ -1,8 +1,10 @@
 ## Clone Target
-
 https://waktaver.se/
 
-Waktaverse and connected browser(wakflix, wakmusic...) clone coding into SPA.
+## description
+Waktaverse and connected browser(wakflix, wakmusic...) clone coding<br/>
+Single Page Application<br/>
+Atomic Design Component Structure<br/>
 
 ## Tools
 |Tool|Version|
@@ -11,4 +13,5 @@ Waktaverse and connected browser(wakflix, wakmusic...) clone coding into SPA.
 |React|18|
 |SCSS||
 |Youtube API||
+|Naver API||
 |...||
