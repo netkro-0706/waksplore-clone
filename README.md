@@ -2,7 +2,11 @@
 
 https://waktaver.se/
 
-Waktaverse and connected browser(wakflix, wakmusic...) clone coding into SPA.
+## description
+
+Waktaverse and connected browser(wakflix, wakmusic...) clone coding<br/>
+Single Page Application<br/>
+Atomic Design Component Structure<br/>
 
 ## Tools
 
