@@ -1,13 +1,12 @@
-import Button from "~/components/primitives/navbar/button/page";
+import Logo from "~/components/primitives/header/logo/page";
+import styles from "./header.module.scss";
+import SearchBarFeature from "~/components/features/header/search-bar/page";
 
 export default function HeaderTemplate() {
   return (
-    <div className="">
-      <Button text={"Home"} href={"/"} />
-
-      <>template Icon</>
-      <>feature searchBar</>
-      <></>
+    <div className={styles.headerWrapper}>
+      <Logo />
+      <SearchBarFeature />
     </div>
   );
 }
