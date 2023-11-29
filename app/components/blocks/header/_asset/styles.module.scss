@@ -1,0 +1,15 @@
+.searchBarWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  > span {
+    color: #d4d4d8;
+  }
+}
+
+.searchFormWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 12px;
+}
