@@ -7,6 +7,7 @@ https://waktaver.se/
 Waktaverse and connected browser(wakflix, wakmusic...) clone coding<br/>
 Single Page Application<br/>
 Atomic Design Component Structure<br/>
+using SCSS for practice<br/>
 
 ## Tools
 
@@ -20,4 +21,5 @@ Atomic Design Component Structure<br/>
 | svgr        |         |
 | Eslint      |         |
 | Prettier    |         |
+| Storybook   |         |
 | ...         |         |
