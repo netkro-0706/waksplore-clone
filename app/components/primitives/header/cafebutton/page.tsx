@@ -6,7 +6,7 @@ import styles from "../_asset/styles.module.scss";
 export default function CafeButton() {
   return (
     <div className={styles.cafeButton}>
-      <Link href={`https://cafe.naver.com/steamindiegame`}>
+      <Link href={`https://cafe.naver.com/steamindiegame`} target="_blank">
         <Image
           src={`/png/naver-cafe.png`}
           width={ICON_SIZE.CAFE.width}
