@@ -15,7 +15,7 @@ export default function SearchButtonBlock() {
 
   return (
     <Link href={setURL()} target="_blank">
-      <SearchButton />
+      <SearchButton size="SEARCH" />
     </Link>
   );
 }
