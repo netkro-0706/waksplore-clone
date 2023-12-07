@@ -1,15 +1,17 @@
 import { Meta, StoryFn } from "@storybook/react";
 import "../_asset/styles.module.scss";
-import { ICON_SIZE } from "../../_asset/constants/page";
-import { ImageButtonProps } from "../_asset/type";
-import ImageButton from "./page";
+import { ICON_SIZE } from "../../../_asset/constants/page";
+import { BaseButtonProps, LinkButtonProps } from "../_asset/type";
+import LinkButton from "./page";
 
 export default {
-  component: ImageButton,
-  title: "Primitives/header/ImageButton",
+  component: LinkButton,
+  title: "Primitives/LinkButton",
 } as Meta;
 
-const Template: StoryFn<ImageButtonProps> = (args) => <ImageButton {...args} />;
+const Template: StoryFn<LinkButtonProps & BaseButtonProps> = (args) => (
+  <LinkButton {...args} />
+);
 
 export const Default = Template.bind({});
 Default.args = {
@@ -17,7 +19,7 @@ Default.args = {
   src: "/png/logo.png",
   width: 30,
   height: 30,
-  alt: "image button",
+  alt: "link button",
 };
 
 export const Logo = Template.bind({});

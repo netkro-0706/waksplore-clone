@@ -5,12 +5,3 @@ export type SearchInputProps = {
   handlerInputChange: (event: ChangeEvent<HTMLInputElement>) => void;
   placeholder: string;
 };
-
-export type ImageButtonProps = {
-  href: string;
-  target?: HTMLAttributeAnchorTarget | undefined;
-  src: string;
-  width: number;
-  height: number;
-  alt: string;
-};
