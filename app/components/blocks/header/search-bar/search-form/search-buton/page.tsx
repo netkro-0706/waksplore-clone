@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { SearchButton } from "~/components/primitives/icon";
+import { Search } from "~/components/primitives/icon";
 
 export default function SearchButtonBlock() {
   const router = useRouter();
@@ -14,8 +14,9 @@ export default function SearchButtonBlock() {
   };
 
   return (
+    //TODO: Search icon이 포함된 DynamicButton으로 바꿀것
     <Link href={setURL()} target="_blank">
-      <SearchButton size="SEARCH" />
+      <Search size="SEARCH" />
     </Link>
   );
 }
